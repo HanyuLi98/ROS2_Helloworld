@@ -1,0 +1,536 @@
+[0.000000] (-) TimerEvent: {}
+[0.000111] (-) JobUnselected: {'identifier': 'pkg01_helloworld_cpp'}
+[0.000136] (-) JobUnselected: {'identifier': 'pkg02_helloworld_py'}
+[0.000154] (-) JobUnselected: {'identifier': 'pkg03_hellovscode_cpp'}
+[0.000170] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000187] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.064982] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.066409] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.066444] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lhy/ws00_helloworld/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/lhy/ws00_helloworld/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'lhy'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lhy'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/lhy/ws00_helloworld/src'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1704'), ('SYSTEMD_EXEC_PID', '1921'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7787'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lhy/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lhy'), ('JOURNAL_STREAM', '8:28606'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lhy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lhy-Blade-Stealth:@/tmp/.ICE-unix/1891,unix/lhy-Blade-Stealth:/tmp/.ICE-unix/1891'), ('INVOCATION_ID', '33b459fbf2354765ae441e1325255f08'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AVJ8C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa4458e4ff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lhy/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lhy/ws00_helloworld/install/pkg02_helloworld_py:/home/lhy/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7b9cba70-4fac-4f05-9dc5-af9c53532fa9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lhy/ws00_helloworld/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lhy/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lhy/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lhy/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lhy/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[0.099301] (-) TimerEvent: {}
+[0.123837] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.127656] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.139392] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.157334] (turtlesim) StdoutLine: {'line': b'[ 33%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.157624] (turtlesim) StdoutLine: {'line': b'[ 33%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.157846] (turtlesim) StdoutLine: {'line': b'[ 48%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.157970] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.158733] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.167526] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.175888] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.187965] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target draw_square\n'}
+[0.189295] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target mimic\n'}
+[0.190861] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target turtlesim\n'}
+[0.192640] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtle_teleop_key\n'}
+[0.199400] (-) TimerEvent: {}
+[0.200283] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[0.212206] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__py\n'}
+[0.238682] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim__rosidl_generator_py\n'}
+[0.259921] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.260531] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.268082] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.299532] (-) TimerEvent: {}
+[0.391982] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.392533] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.392750] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.393010] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.394850] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.395423] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.399694] (-) TimerEvent: {}
+[0.427793] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.499815] (-) TimerEvent: {}
+[0.600232] (-) TimerEvent: {}
+[0.700551] (-) TimerEvent: {}
+[0.800870] (-) TimerEvent: {}
+[0.901185] (-) TimerEvent: {}
+[1.001509] (-) TimerEvent: {}
+[1.101838] (-) TimerEvent: {}
+[1.202124] (-) TimerEvent: {}
+[1.302446] (-) TimerEvent: {}
+[1.402737] (-) TimerEvent: {}
+[1.503042] (-) TimerEvent: {}
+[1.603400] (-) TimerEvent: {}
+[1.703755] (-) TimerEvent: {}
+[1.804102] (-) TimerEvent: {}
+[1.904418] (-) TimerEvent: {}
+[2.004702] (-) TimerEvent: {}
+[2.105017] (-) TimerEvent: {}
+[2.205397] (-) TimerEvent: {}
+[2.305771] (-) TimerEvent: {}
+[2.406119] (-) TimerEvent: {}
+[2.506465] (-) TimerEvent: {}
+[2.606794] (-) TimerEvent: {}
+[2.707129] (-) TimerEvent: {}
+[2.807482] (-) TimerEvent: {}
+[2.907805] (-) TimerEvent: {}
+[3.008148] (-) TimerEvent: {}
+[3.108492] (-) TimerEvent: {}
+[3.208831] (-) TimerEvent: {}
+[3.309166] (-) TimerEvent: {}
+[3.409511] (-) TimerEvent: {}
+[3.509885] (-) TimerEvent: {}
+[3.610225] (-) TimerEvent: {}
+[3.710596] (-) TimerEvent: {}
+[3.810953] (-) TimerEvent: {}
+[3.911294] (-) TimerEvent: {}
+[4.011639] (-) TimerEvent: {}
+[4.111993] (-) TimerEvent: {}
+[4.212327] (-) TimerEvent: {}
+[4.312662] (-) TimerEvent: {}
+[4.412991] (-) TimerEvent: {}
+[4.513320] (-) TimerEvent: {}
+[4.613678] (-) TimerEvent: {}
+[4.714016] (-) TimerEvent: {}
+[4.814344] (-) TimerEvent: {}
+[4.914667] (-) TimerEvent: {}
+[5.015000] (-) TimerEvent: {}
+[5.115354] (-) TimerEvent: {}
+[5.215688] (-) TimerEvent: {}
+[5.316008] (-) TimerEvent: {}
+[5.416347] (-) TimerEvent: {}
+[5.516675] (-) TimerEvent: {}
+[5.617000] (-) TimerEvent: {}
+[5.717339] (-) TimerEvent: {}
+[5.817686] (-) TimerEvent: {}
+[5.918029] (-) TimerEvent: {}
+[6.018305] (-) TimerEvent: {}
+[6.118649] (-) TimerEvent: {}
+[6.219051] (-) TimerEvent: {}
+[6.319449] (-) TimerEvent: {}
+[6.419833] (-) TimerEvent: {}
+[6.520219] (-) TimerEvent: {}
+[6.620633] (-) TimerEvent: {}
+[6.721079] (-) TimerEvent: {}
+[6.821472] (-) TimerEvent: {}
+[6.921792] (-) TimerEvent: {}
+[7.022093] (-) TimerEvent: {}
+[7.122442] (-) TimerEvent: {}
+[7.222790] (-) TimerEvent: {}
+[7.323151] (-) TimerEvent: {}
+[7.423482] (-) TimerEvent: {}
+[7.523825] (-) TimerEvent: {}
+[7.624215] (-) TimerEvent: {}
+[7.724568] (-) TimerEvent: {}
+[7.824961] (-) TimerEvent: {}
+[7.925357] (-) TimerEvent: {}
+[8.025726] (-) TimerEvent: {}
+[8.126052] (-) TimerEvent: {}
+[8.226367] (-) TimerEvent: {}
+[8.326692] (-) TimerEvent: {}
+[8.427010] (-) TimerEvent: {}
+[8.527324] (-) TimerEvent: {}
+[8.627639] (-) TimerEvent: {}
+[8.727955] (-) TimerEvent: {}
+[8.828270] (-) TimerEvent: {}
+[8.928536] (-) TimerEvent: {}
+[9.028868] (-) TimerEvent: {}
+[9.129210] (-) TimerEvent: {}
+[9.229528] (-) TimerEvent: {}
+[9.329845] (-) TimerEvent: {}
+[9.430174] (-) TimerEvent: {}
+[9.530491] (-) TimerEvent: {}
+[9.630809] (-) TimerEvent: {}
+[9.731124] (-) TimerEvent: {}
+[9.831434] (-) TimerEvent: {}
+[9.931738] (-) TimerEvent: {}
+[10.032010] (-) TimerEvent: {}
+[10.132285] (-) TimerEvent: {}
+[10.232554] (-) TimerEvent: {}
+[10.332861] (-) TimerEvent: {}
+[10.433175] (-) TimerEvent: {}
+[10.533440] (-) TimerEvent: {}
+[10.633757] (-) TimerEvent: {}
+[10.734033] (-) TimerEvent: {}
+[10.834341] (-) TimerEvent: {}
+[10.934648] (-) TimerEvent: {}
+[11.034969] (-) TimerEvent: {}
+[11.135605] (-) TimerEvent: {}
+[11.236011] (-) TimerEvent: {}
+[11.336517] (-) TimerEvent: {}
+[11.436825] (-) TimerEvent: {}
+[11.537170] (-) TimerEvent: {}
+[11.637512] (-) TimerEvent: {}
+[11.737856] (-) TimerEvent: {}
+[11.838262] (-) TimerEvent: {}
+[11.938596] (-) TimerEvent: {}
+[12.038999] (-) TimerEvent: {}
+[12.074283] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[12.139128] (-) TimerEvent: {}
+[12.239435] (-) TimerEvent: {}
+[12.339795] (-) TimerEvent: {}
+[12.440148] (-) TimerEvent: {}
+[12.540482] (-) TimerEvent: {}
+[12.640872] (-) TimerEvent: {}
+[12.741281] (-) TimerEvent: {}
+[12.841707] (-) TimerEvent: {}
+[12.942118] (-) TimerEvent: {}
+[13.042519] (-) TimerEvent: {}
+[13.142923] (-) TimerEvent: {}
+[13.243316] (-) TimerEvent: {}
+[13.343721] (-) TimerEvent: {}
+[13.444129] (-) TimerEvent: {}
+[13.544537] (-) TimerEvent: {}
+[13.644945] (-) TimerEvent: {}
+[13.745354] (-) TimerEvent: {}
+[13.845733] (-) TimerEvent: {}
+[13.946048] (-) TimerEvent: {}
+[14.046473] (-) TimerEvent: {}
+[14.146866] (-) TimerEvent: {}
+[14.247206] (-) TimerEvent: {}
+[14.347561] (-) TimerEvent: {}
+[14.447946] (-) TimerEvent: {}
+[14.548257] (-) TimerEvent: {}
+[14.648639] (-) TimerEvent: {}
+[14.749017] (-) TimerEvent: {}
+[14.849400] (-) TimerEvent: {}
+[14.949740] (-) TimerEvent: {}
+[15.050120] (-) TimerEvent: {}
+[15.102560] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[15.118420] (turtlesim) CommandEnded: {'returncode': 0}
+[15.150203] (-) TimerEvent: {}
+[15.250623] (-) TimerEvent: {}
+[15.350918] (-) TimerEvent: {}
+[15.353787] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[15.365677] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lhy/ws00_helloworld/build/turtlesim'], 'cwd': '/home/lhy/ws00_helloworld/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'lhy'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lhy'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/lhy/ws00_helloworld/src'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1704'), ('SYSTEMD_EXEC_PID', '1921'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7787'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lhy/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lhy'), ('JOURNAL_STREAM', '8:28606'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lhy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lhy-Blade-Stealth:@/tmp/.ICE-unix/1891,unix/lhy-Blade-Stealth:/tmp/.ICE-unix/1891'), ('INVOCATION_ID', '33b459fbf2354765ae441e1325255f08'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AVJ8C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa4458e4ff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lhy/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lhy/ws00_helloworld/install/pkg02_helloworld_py:/home/lhy/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7b9cba70-4fac-4f05-9dc5-af9c53532fa9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lhy/ws00_helloworld/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lhy/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lhy/ws00_helloworld/install/pkg03_hellovscode_cpp:/home/lhy/ws00_helloworld/install/pkg01_helloworld_cpp:/home/lhy/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[15.375010] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.375268] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[15.375471] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim\n'}
+[15.375647] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[15.375865] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[15.376001] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[15.376160] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[15.376291] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[15.376367] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[15.376479] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[15.376594] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[15.376692] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[15.376821] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[15.376970] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[15.377057] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[15.377168] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[15.377305] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[15.377437] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[15.377559] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[15.377803] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[15.377950] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[15.378139] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[15.378258] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[15.378392] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[15.378518] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[15.378649] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[15.378795] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[15.378938] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[15.379067] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[15.379237] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[15.379432] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[15.379621] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[15.379713] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[15.379877] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[15.380044] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[15.380188] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[15.380372] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[15.380573] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[15.380714] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[15.380908] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.381088] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[15.381277] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[15.381432] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[15.381574] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[15.381742] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[15.381915] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[15.382082] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[15.382201] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[15.382347] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[15.382459] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[15.382595] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[15.382727] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[15.382885] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[15.383613] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[15.383803] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim\n'}
+[15.383978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[15.384115] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[15.384229] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[15.384380] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[15.384552] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[15.384761] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[15.384961] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[15.385112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[15.385244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[15.385459] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[15.385795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[15.385943] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.386161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[15.386278] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[15.386391] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[15.386503] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[15.386859] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.387164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim\n'}
+[15.387350] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[15.387496] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[15.387805] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[15.387939] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[15.388069] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[15.388194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[15.388340] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[15.389017] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[15.389556] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[15.389957] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[15.390279] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[15.390465] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[15.390584] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[15.390698] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[15.390811] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[15.390923] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[15.391034] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[15.391289] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[15.391486] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[15.391622] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[15.391753] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[15.391885] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[15.392013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[15.392134] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[15.392288] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[15.392394] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[15.392523] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[15.392732] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[15.392859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[15.392986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[15.393145] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[15.393272] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[15.393409] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[15.393547] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[15.393712] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[15.393839] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[15.393944] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[15.394089] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[15.394196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim\n'}
+[15.394307] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[15.394410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[15.394513] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.394656] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.394782] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[15.394957] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.395071] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.395241] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.395406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[15.395526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[15.395686] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[15.395808] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.395929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[15.396050] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.396297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[15.396424] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.396546] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[15.396709] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.396895] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.397034] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.397172] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim\n'}
+[15.397291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[15.397430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[15.397581] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[15.397708] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[15.397878] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[15.398085] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[15.398192] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[15.398299] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[15.398402] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[15.398544] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[15.398683] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[15.398822] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[15.398948] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[15.399067] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[15.399169] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[15.399303] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[15.399423] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[15.399541] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.399717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[15.399863] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[15.399981] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[15.400100] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[15.400217] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[15.400335] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[15.400452] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.400594] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[15.400714] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[15.400832] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim\n'}
+[15.400948] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[15.401066] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[15.401184] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[15.401393] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[15.401493] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.401616] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[15.401714] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.401832] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.401949] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.402110] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.402209] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[15.402360] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[15.402488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[15.402650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[15.402778] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[15.402911] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.403033] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[15.403150] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[15.403265] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[15.403382] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.403498] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[15.403678] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.403801] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[15.403934] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.404087] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[15.404202] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[15.404320] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[15.404437] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[15.404574] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[15.404763] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[15.404859] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[15.404955] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[15.405082] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[15.405178] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[15.405291] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.405427] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[15.405581] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[15.405679] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[15.405794] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[15.405908] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[15.406033] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[15.406184] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[15.406309] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[15.406415] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[15.406582] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[15.406711] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[15.406829] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[15.406967] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[15.407079] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.407175] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[15.407292] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.407388] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[15.407499] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[15.407594] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[15.407692] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[15.407789] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[15.407912] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[15.408020] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[15.408133] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[15.408247] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[15.408352] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[15.408448] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[15.408544] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[15.408704] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[15.451014] (-) TimerEvent: {}
+[15.460184] (turtlesim) StdoutLine: {'line': b"Listing '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[15.460450] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[15.460594] (turtlesim) StdoutLine: {'line': b"Listing '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[15.460737] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[15.460845] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[15.460952] (turtlesim) StdoutLine: {'line': b"Listing '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[15.461058] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[15.461163] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[15.461265] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[15.461378] (turtlesim) StdoutLine: {'line': b"Listing '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[15.461484] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[15.461589] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[15.461691] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[15.461795] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[15.461897] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[15.462017] (turtlesim) StdoutLine: {'line': b"Compiling '/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[15.467933] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.468383] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.468662] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.469115] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.469353] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.469805] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.469956] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[15.470376] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[15.470565] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[15.470739] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[15.470879] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[15.471018] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[15.471155] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[15.471309] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[15.471457] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[15.471586] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[15.471733] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[15.471873] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[15.472000] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[15.472134] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[15.472292] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[15.472474] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[15.472622] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[15.472761] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[15.472889] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[15.473028] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[15.473163] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[15.473333] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[15.473476] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[15.473648] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[15.473839] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[15.474030] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[15.474236] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[15.474392] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[15.474872] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[15.485099] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[15.485321] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[15.487138] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[15.487282] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/turtlesim/draw_square\n'}
+[15.492084] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[15.492412] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/lib/turtlesim/mimic\n'}
+[15.496663] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws00_helloworld/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[15.496866] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/images\n'}
+[15.497054] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[15.497179] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[15.497259] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[15.497403] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[15.497535] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[15.497667] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[15.497774] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[15.497900] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[15.498044] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[15.498153] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/launch\n'}
+[15.498223] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[15.498346] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[15.498433] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[15.498522] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[15.498667] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[15.498832] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[15.499004] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[15.499158] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[15.499296] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[15.499441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[15.499586] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[15.499731] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/package.dsv\n'}
+[15.499902] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[15.500081] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[15.500227] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.500380] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.500525] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.500697] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[15.500858] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.501002] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.501156] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.501339] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.501484] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[15.501618] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.501750] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.501890] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.502121] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[15.502274] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.502414] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[15.502565] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.502706] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[15.502839] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.502972] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.503104] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.503235] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.503367] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.503529] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.503665] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[15.503811] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[15.503937] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/lhy/ws00_helloworld/install/turtlesim/share/turtlesim/package.xml\n'}
+[15.506701] (turtlesim) CommandEnded: {'returncode': 0}
+[15.551272] (-) TimerEvent: {}
+[15.651580] (-) TimerEvent: {}
+[15.752055] (-) TimerEvent: {}
+[15.852646] (-) TimerEvent: {}
+[15.879040] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[15.879725] (-) EventReactorShutdown: {}

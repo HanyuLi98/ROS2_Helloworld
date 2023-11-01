@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+54277f94a934edb4cdbb0332f038c4f5 CMakeFiles/pkg03_hellovscode_cpp_uninstall

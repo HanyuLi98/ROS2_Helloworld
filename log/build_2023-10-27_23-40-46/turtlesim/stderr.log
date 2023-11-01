@@ -1,0 +1,8 @@
+[01m[K/home/lhy/ws00_helloworld/src/turtlesim/src/turtle_frame.cpp:30:10:[m[K [01;31m[Kfatal error: [m[Kturtlesicolconm/turtle_frame.h: No such file or directory
+   30 | #include [01;31m[K"turtlesicolconm/turtle_frame.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:108: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:599: CMakeFiles/turtlesim_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

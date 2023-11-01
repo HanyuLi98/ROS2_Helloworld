@@ -1,0 +1,39 @@
+[0.729s] Invoking command in '/home/lhy/ws00_helloworld/src/pkg02_helloworld_py': PYTHONPATH=/home/lhy/ws00_helloworld/build/pkg02_helloworld_py/prefix_override:/home/lhy/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg02_helloworld_py build --build-base /home/lhy/ws00_helloworld/build/pkg02_helloworld_py/build install --record /home/lhy/ws00_helloworld/build/pkg02_helloworld_py/install.log --single-version-externally-managed
+[0.983s] running egg_info
+[0.984s] creating ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info
+[0.984s] writing ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/PKG-INFO
+[0.984s] writing dependency_links to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/dependency_links.txt
+[0.985s] writing entry points to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/entry_points.txt
+[0.985s] writing requirements to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/requires.txt
+[0.985s] writing top-level names to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/top_level.txt
+[0.985s] writing manifest file '../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/SOURCES.txt'
+[0.987s] reading manifest file '../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/SOURCES.txt'
+[0.989s] writing manifest file '../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/SOURCES.txt'
+[0.989s] running build
+[0.989s] running build_py
+[0.989s] creating /home/lhy/ws00_helloworld/build/pkg02_helloworld_py/build
+[0.989s] creating /home/lhy/ws00_helloworld/build/pkg02_helloworld_py/build/lib
+[0.989s] creating /home/lhy/ws00_helloworld/build/pkg02_helloworld_py/build/lib/pkg02_helloworld_py
+[0.989s] copying pkg02_helloworld_py/helloworld.py -> /home/lhy/ws00_helloworld/build/pkg02_helloworld_py/build/lib/pkg02_helloworld_py
+[0.990s] copying pkg02_helloworld_py/__init__.py -> /home/lhy/ws00_helloworld/build/pkg02_helloworld_py/build/lib/pkg02_helloworld_py
+[0.990s] running install
+[0.990s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.990s]   warnings.warn(
+[0.990s] running install_lib
+[0.991s] creating /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py
+[0.991s] copying /home/lhy/ws00_helloworld/build/pkg02_helloworld_py/build/lib/pkg02_helloworld_py/helloworld.py -> /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py
+[0.991s] copying /home/lhy/ws00_helloworld/build/pkg02_helloworld_py/build/lib/pkg02_helloworld_py/__init__.py -> /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py
+[0.992s] byte-compiling /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py/helloworld.py to helloworld.cpython-310.pyc
+[0.992s] byte-compiling /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py/__init__.py to __init__.cpython-310.pyc
+[0.992s] running install_data
+[0.993s] creating /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/share/ament_index
+[0.993s] creating /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/share/ament_index/resource_index
+[0.993s] creating /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/share/ament_index/resource_index/packages
+[0.993s] copying resource/pkg02_helloworld_py -> /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/share/ament_index/resource_index/packages
+[0.993s] copying package.xml -> /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/share/pkg02_helloworld_py
+[0.994s] running install_egg_info
+[0.996s] Copying ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info to /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py-0.0.0-py3.10.egg-info
+[0.996s] running install_scripts
+[1.016s] Installing helloworld script to /home/lhy/ws00_helloworld/install/pkg02_helloworld_py/lib/pkg02_helloworld_py
+[1.017s] writing list of installed files to '/home/lhy/ws00_helloworld/build/pkg02_helloworld_py/install.log'
+[1.042s] Invoked command in '/home/lhy/ws00_helloworld/src/pkg02_helloworld_py' returned '0': PYTHONPATH=/home/lhy/ws00_helloworld/build/pkg02_helloworld_py/prefix_override:/home/lhy/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg02_helloworld_py build --build-base /home/lhy/ws00_helloworld/build/pkg02_helloworld_py/build install --record /home/lhy/ws00_helloworld/build/pkg02_helloworld_py/install.log --single-version-externally-managed
